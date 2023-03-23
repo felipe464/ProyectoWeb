@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family-Dancing+Script');
 body{
-    background-color: rgba(204, 196, 206, 0.808);
+    background-color: rgba(69, 69, 114, 0.966);
+    text-align: center;
 }
 img{
-    float: none;
+    max-width: 100%;
+    text-align: center;
+
     
 }
 .button {
@@ -22,7 +26,62 @@ img{
     
   }
   .antes_adoptar{
-    background-color: rgb(187, 165, 189);
+    background-color: rgb(86, 76, 173);
     margin-top: 0%;
     margin-bottom: 0%;
+    width: 3525x;
+    height: 20px;
+    color: white;
+    text-align: center;
+    transition: all 1s;
+    
+    position: absolute;
+    
+  }
+  .antes_adoptar:hover{
+    height: 200px;
+    position: absolute;
+    
+  }
+  .letra{
+    color: white;
+  }
+  h2{
+    
+    text-align: center;
+    display: inline-block;
+    position:relative;
+    color: rgb(79, 51, 156);
+    font-family: 'Dancing Script', cursive;
+  }
+  h2::after, h2::before{
+    content: '';
+    position:absolute;
+    width: 120px;
+    height: 3px;
+    background-color: currentColor;
+    top: 0.6em;
+    
+
+  }
+  h2::before{
+    left: -140px;
+
+  }
+  h2::after{
+    right: -140px;
+
+  }
+  #trans{
+    transition-timing-function: linear;
+    
+  }
+  .c_a_v{
+    border: 2px solid black;
+    
+  }
+  .perro{
+    width: 80%;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.5);
+
   }
