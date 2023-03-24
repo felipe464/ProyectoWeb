@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family-Dancing+Script');
 body{
-    background-color: rgba(69, 69, 114, 0.966);
+  background-image: url(img/collageperro.png);
     text-align: center;
 }
 img{
     max-width: 100%;
+    max-height: 100%;
     text-align: center;
 
     
@@ -26,7 +27,7 @@ img{
     
   }
   .antes_adoptar{
-    background-color: rgb(86, 76, 173);
+    background-color: rgb(115, 18, 194);
     margin-top: 0%;
     margin-bottom: 0%;
     width: 3525x;
@@ -84,4 +85,7 @@ img{
     width: 80%;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.5);
 
+  }
+  .texto{
+    background-color: white;
   }
