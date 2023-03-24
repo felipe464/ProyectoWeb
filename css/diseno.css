@@ -27,14 +27,15 @@ img{
     
   }
   .antes_adoptar{
-    background-color: rgb(115, 18, 194);
+    background-color: rgba(146, 107, 197, 0.938);
     margin-top: 0%;
-    margin-bottom: 0%;
+    padding-right: 3px;
+    size: 100px;
     width: 3525x;
     height: 20px;
     color: white;
     text-align: center;
-    transition: all 1s;
+    transition: all 0.5s;
     
     position: absolute;
     
