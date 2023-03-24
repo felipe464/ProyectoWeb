@@ -43,6 +43,7 @@ img{
   .antes_adoptar:hover{
     height: 200px;
     position: absolute;
+    border-radius: 0%;
     
   }
   .letra{
